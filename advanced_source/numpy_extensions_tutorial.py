@@ -1,20 +1,20 @@
 # -*- coding: utf-8 -*-
 """
-Creating Extensions Using NumPy and SciPy
+NumPy와 SciPy를 사용한 Extensions 만들기
 =========================================
-**Author**: `Adam Paszke <https://github.com/apaszke>`_
+**저자**: `Adam Paszke <https://github.com/apaszke>`_
 
-**Updated by**: `Adam Dziedzic <https://github.com/adam-dziedzic>`_
+**개정자**: `Adam Dziedzic <https://github.com/adam-dziedzic>`_
 
-In this tutorial, we shall go through two tasks:
+이 튜토리얼에서는 두 가지 작업을 수행합니다:
 
-1. Create a neural network layer with no parameters.
+1. 매개변수가 없는 신경망 계층 만들기.
 
-    -  This calls into **numpy** as part of its implementation
+    -  이 구현의 일부로 **NumPy**를 호출합니다.
 
-2. Create a neural network layer that has learnable weights
+2. 학습 가능한 가중치를 가지는 신경망 계층 만들기
 
-    -  This calls into **SciPy** as part of its implementation
+    -  이 구현의 일부로 **SciPy**를 호출합니다.
 """
 
 import torch
