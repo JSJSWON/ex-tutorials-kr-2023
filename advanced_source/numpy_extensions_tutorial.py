@@ -4,17 +4,17 @@ NumPy와 SciPy를 사용한 Extensions 만들기
 =========================================
 **저자**: `Adam Paszke <https://github.com/apaszke>`_
 
-**개정자**: `Adam Dziedzic <https://github.com/adam-dziedzic>`_
+**수정**: `Adam Dziedzic <https://github.com/adam-dziedzic>`_
 
 이 튜토리얼에서는 두 가지 작업을 수행합니다:
 
 1. 매개변수가 없는 신경망 계층 만들기.
 
-    -  이 구현의 일부로 **NumPy**를 호출합니다.
+    -  이 구현의 일부로써 **numpy**를 호출합니다.
 
 2. 학습 가능한 가중치를 가지는 신경망 계층 만들기
 
-    -  이 구현의 일부로 **SciPy**를 호출합니다.
+    -  이 구현의 일부로써 **SciPy**를 호출합니다.
 """
 
 import torch
